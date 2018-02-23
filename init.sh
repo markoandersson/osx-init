@@ -18,8 +18,9 @@ brew cask install hipchat
 brew tap caskroom/versions
 brew cask install caskroom/versions/java8
 
-## JS
+## Build
 brew install yarn
+brew install maven
 
 ## Dev
 brew cask install virtualbox
@@ -38,3 +39,5 @@ brew cask install spotify
 brew install awscli
 brew install azure-cli
 brew install travis
+
+brew cask install keeweb

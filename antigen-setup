@@ -1,0 +1,21 @@
+source /usr/local/share/antigen/antigen.zsh
+
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle docker
+antigen bundle vagrant
+antigen bundle npm
+antigen bundle pip
+antigen bundle aws
+antigen bundle command-not-found
+antigen bundle brew
+antigen bundle yarn
+antigen bundle common-aliases
+antigen bundle mvn
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen theme agnoster
+
+antigen apply

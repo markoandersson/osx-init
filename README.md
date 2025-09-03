@@ -1,5 +1,12 @@
-# Shell scripts to install clean development environment
+# OSX Development Setup
 
-See [init.sh](./init.sh) for installing required software with [homebrew](https://brew.sh/)
+## Files
 
-See [antigen-setup](antigen-setup) for configuring [zsh](http://www.zsh.org/) with [antigen](https://github.com/zsh-users/antigen) and [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). Just include `antigen` configuration to your `.zshrc`.
+- `.zshrc` - Shell configuration with starship and sheldon
+- `.config/sheldon/plugins.toml` - Zsh plugin manager configuration
+
+## Usage
+
+1. Copy `.zshrc` to `~/.zshrc`
+2. Copy `.config/sheldon/` to `~/.config/sheldon/`
+3. Install required tools: starship, sheldon, colorls
